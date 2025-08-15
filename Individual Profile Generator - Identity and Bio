@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Identity & Bio",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "title": { "type": "string" },
+    "company": { "type": "string" },
+    "locations": { "type": "array", "items": { "type": "string" } },
+    "education": { "type": "array", "items": { "type": "string" } },
+    "personal_details": { "type": "string" },
+    "spouse_name": { "type": "string" }
+  },
+  "required": ["name"],
+  "additionalProperties": false
+}
